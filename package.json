@@ -11,8 +11,7 @@
     "lint": "eslint --ext .js,.vue src"
   },
   "dependencies": {
-    "mpvue": "^1.0.11",
-    "theaterjs": "^3.2.0"
+    "mpvue": "^1.0.11"
   },
   "devDependencies": {
     "mpvue-loader": "1.0.13",

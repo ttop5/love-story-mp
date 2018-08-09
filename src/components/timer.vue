@@ -1,9 +1,9 @@
 <template>
   <div class="timer">
-    <span class="days">{{ days }}</span>days
-    <span class="hours">{{ hours }}</span>hours
-    <span class="minutes">{{ minutes }}</span>minutes
-    <span class="seconds">{{ seconds }}</span>seconds
+    <span class="days">{{ days }}</span>Days
+    <span class="hours">{{ hours }}</span>Hours
+    <span class="minutes">{{ minutes }}</span>Minutes
+    <span class="seconds">{{ seconds }}</span>Seconds
   </div>
 </template>
 
@@ -58,14 +58,16 @@
 </script>
 
 <style scoped>
-  @font-face {
-    font-family: 'time';
-    src: url('/static/font/DS-DigitalBold.ttf');
-  }
   .timer {
+    position: absolute;
+    bottom: 45rpx;
+    width: 100%;
     text-align: center;
+    color: #bd1521;
+    font-size: 25rpx;
   }
   .days, .hours, .minutes, .seconds {
-    font-family: time !important;
+    font-size: 50rpx;
+    color: #ffeb3b;
   }
 </style>
