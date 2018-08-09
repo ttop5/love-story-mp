@@ -1,20 +1,30 @@
 <template>
   <div>
-    <h1>LOVE STORY</h1>
+    <h1 class="title">LOVE STORY</h1>
+    <timer></timer>
   </div>
 </template>
 
 <script>
-export default {
-  data () {
-    return {}
-  },
+  import timer from '@/components/timer'
 
-  methods: {},
+  export default {
+    components: {
+      timer
+    },
 
-  mounted () {}
-}
+    data () {
+      return {
+      }
+    },
+
+    methods: {}
+  }
 </script>
 
 <style scoped>
+  .title {
+    text-align: center;
+    font-size: 45rpx;
+  }
 </style>
